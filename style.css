@@ -179,9 +179,6 @@ footer {
 
 @media (max-width: 425px) {
 
-    header, main, footer {
-        width: 100%;
-    }
 
     .conteudo {
         width: 90%;
@@ -268,11 +265,7 @@ footer {
 }
 
 
-@media (min-width: 425px) and (max-width: 768px) {
-
-    header, main, footer {
-        width: 100%;
-    }
+@media (min-width: 426px) and (max-width: 768px) {
 
     .conteudo {
         width: 90%;
