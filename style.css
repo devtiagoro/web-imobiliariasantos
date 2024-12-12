@@ -177,7 +177,7 @@ footer {
     text-align: right;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 200px) and (max-width: 576px) {
 
     header, main, footer {
         width: 100%;
@@ -193,7 +193,7 @@ footer {
     }
 
     .conteudo img {
-        width: 80%
+        width: 60%
     }
 
     h1 {
@@ -243,7 +243,7 @@ footer {
     }
 
     ul li {
-        flex: 0 0 150px;
+        flex: 0 0 220px;
     }
 
     /***************************Estilo Contato*/
