@@ -117,7 +117,7 @@ h3 {
 }
 
 ul {
-    width: 50%;
+    width: 100%;
     margin: 10px auto 0;
 
     display: flex;
@@ -126,10 +126,12 @@ ul {
     align-items: center;
     text-align: center;
     gap: 10px;
+    border: 1px solid red;
 }
 
 ul li {
-    flex: 1 1 300px;
+    flex-basis: 100%;
+    border: 1px solid red;
 }
 
 
@@ -177,7 +179,7 @@ footer {
     text-align: right;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
 
 
     .conteudo {
@@ -232,7 +234,7 @@ footer {
         margin: 10px auto 0;
 
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         text-align: center;
         gap: 10px;
@@ -265,7 +267,7 @@ footer {
 }
 
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 768px) {
 
     .conteudo {
         width: 90%;
@@ -317,7 +319,7 @@ footer {
 
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         text-align: center;
         gap: 10px;
