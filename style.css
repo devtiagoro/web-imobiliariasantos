@@ -231,21 +231,19 @@ footer {
     /***************************Estilo Serviços*/
 
     ul {
-        width: 100%;
+        width: 60%;
         margin: 10px auto 0;
 
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
         gap: 10px;
     }
 
     ul li {
-        width: 50%;
-        flex-grow: 1;
-        flex-shrink: 1;
+        flex-basis: 40%;
+        
     }
 
     /***************************Estilo Contato*/
@@ -257,6 +255,7 @@ footer {
 
     .container-contato a {
         width: 50%;
+        
     }
 
     /***************************Estilo Rodapé*/
@@ -320,21 +319,19 @@ footer {
     /***************************Estilo Serviços*/
 
     ul {
-        width: 100%;
+        width: 60%;
         margin: 10px auto 0;
 
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
-        gap: 10px
+        gap: 10px;
     }
 
     ul li {
-        width: 50%;
-        flex-grow: 1;
-        flex-shrink: 1;
+        flex-basis: 40%;
     }
 
     /***************************Estilo Contato*/
