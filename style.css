@@ -129,7 +129,7 @@ ul {
 }
 
 ul li {
-    flex: 0 0 300px;
+    flex: 1 1 300px;
 }
 
 
@@ -177,7 +177,7 @@ footer {
     text-align: right;
 }
 
-@media (min-width: 200px) and (max-width: 576px) {
+@media (max-width: 425px) {
 
     header, main, footer {
         width: 100%;
@@ -236,14 +236,14 @@ footer {
 
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         text-align: center;
         gap: 10px;
     }
 
     ul li {
-        flex: 0 0 220px;
+        flex: 1 1 150px;
     }
 
     /***************************Estilo Contato*/
@@ -267,7 +267,7 @@ footer {
 }
 
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
 
     header, main, footer {
         width: 100%;
@@ -330,7 +330,7 @@ footer {
     }
 
     ul li {
-        flex: 0 0 230px;
+        flex: 1 1 230px;
     }
 
     /***************************Estilo Contato*/
